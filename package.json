@@ -2,13 +2,16 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://username.github.io/repo-name",
+  "homepage": "https://username.github.io/Hospitalweb",
    "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@mantine/carousel": "^8.2.5",
