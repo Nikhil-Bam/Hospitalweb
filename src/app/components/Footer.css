@@ -1,0 +1,187 @@
+.site-footer {
+  background-color: #2a2a2a;
+  color: #a0a0a0;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 23%;
+  margin: 10px;
+}
+
+.column-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5a5a5a;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+/* Latest Tweets Section */
+.tweets-column .tweet-item {
+  margin-bottom: 15px;
+}
+
+.tweets-column .tweet-text a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.tweets-column .tweet-date {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Medikal Info Section */
+.medikal-info-column {
+  flex-grow: 1.5;
+  text-align: center;
+}
+
+.medikal-logo .logo-text {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.medikal-description {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.social-icons a {
+  color: #fff;
+  background-color: #4a4a4a;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #3498db;
+}
+
+/* Newsletter Section */
+.newsletter-form {
+  margin-top: 30px;
+}
+
+.newsletter-title {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  border: 1px solid #5a5a5a;
+}
+
+.input-group input {
+  flex-grow: 1;
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-group input::placeholder {
+  color: #a0a0a0;
+}
+
+.input-group button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+  background-color: #297fb8;
+}
+
+/* Patient Guide Section */
+.patient-guide-column .footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-guide-column .footer-links li {
+  margin-bottom: 8px;
+}
+
+.patient-guide-column .footer-links a {
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.patient-guide-column .footer-links a:hover {
+  color: #fff;
+}
+
+/* Bottom Copyright Section */
+.footer-bottom {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tweets-column, .patient-guide-column, .opening-hours-column {
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+  }
+
+  .medikal-info-column .social-icons {
+    justify-content: center;
+  }
+
+  .input-group {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
