@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://username.github.io/Hospitalweb",
+  "homepage": "https://Nikhil-Bam.github.io/Hospitalweb",
    "type": "module",
   "scripts": {
     "dev": "vite",
