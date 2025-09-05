@@ -2,7 +2,8 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://username.github.io/repo-name",
+   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -17,6 +18,7 @@
     "embla-carousel": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "framer-motion": "^12.23.12",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.1",
